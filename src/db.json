@@ -1,9 +1,36 @@
 {
   "users": [
     {
-      "id": 1,
+      "id": "1",
       "username": "joshua@example.com",
-      "password": "joshua1234"
+      "password": "joshua1234",
+      "bio": "A Basic User",
+      "phone": "1234567890",
+      "avatar": ""
     }
-  ]
+  ],
+  "rides": [
+    {
+      "id": "a",
+      "origin": "New York",
+      "destination": "Los Angeles",
+      "date": "2024-07-01",
+      "time": "10:00 AM",
+      "availableSeats": 3,
+      "price": 1000,
+      "userId": 1
+    },
+    {
+      "name": "Joshua Johnson",
+      "origin": "1234 Home St, Orlando, FL 32869",
+      "destination": "MCO Airport",
+      "date": "2026-04-10",
+      "service": "airport",
+      "distance": "12.4",
+      "price": "42.20",
+      "userId": 1,
+      "id": "QcLb-1wgvlo"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
