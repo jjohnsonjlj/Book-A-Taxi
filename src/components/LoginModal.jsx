@@ -75,7 +75,7 @@ export default function LoginModal({ isOpen, onClose }) {
         <h2 className="text-xl font-bold mb-4">Login</h2>
 
         {/* Username */}
-        <div className="mb-4">
+        <div className="mb-4 dark:text-gray-300">
           <input
             name="username"
             placeholder="Username"
@@ -84,13 +84,13 @@ export default function LoginModal({ isOpen, onClose }) {
               setForm({ ...form, username: e.target.value })
             }
             onBlur={handleBlur}
-            className="w-full p-3 border rounded-lg"
+            className="w-full p-3 border rounded-lg dark:bg-gray-700 dark:border-gray-600"
           />
           <p className="text-red-500 text-sm">{errors.username}</p>
         </div>
 
         {/* Password */}
-        <div className="mb-4">
+        <div className="mb-4 dark:text-gray-300">
           <input
             type="password"
             name="password"
@@ -100,7 +100,7 @@ export default function LoginModal({ isOpen, onClose }) {
               setForm({ ...form, password: e.target.value })
             }
             onBlur={handleBlur}
-            className="w-full p-3 border rounded-lg"
+            className="w-full p-3 border rounded-lg dark:bg-gray-700 dark:border-gray-600"
           />
           <p className="text-red-500 text-sm">{errors.password}</p>
         </div>

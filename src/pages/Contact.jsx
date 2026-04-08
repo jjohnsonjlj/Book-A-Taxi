@@ -119,7 +119,7 @@ export default function Contact() {
               setForm({ ...form, name: e.target.value })
             }
             onBlur={handleBlur}
-            className="w-full p-3 border rounded-lg"
+            className="w-full p-3 border rounded-lg dark:bg-gray-700 dark:border-gray-600"
           />
           <p className="text-red-500 text-sm">{errors.name}</p>
         </div>
@@ -135,7 +135,7 @@ export default function Contact() {
               setForm({ ...form, email: e.target.value })
             }
             onBlur={handleBlur}
-            className="w-full p-3 border rounded-lg"
+            className="w-full p-3 border rounded-lg dark:bg-gray-700 dark:border-gray-600"
           />
           <p className="text-red-500 text-sm">{errors.email}</p>
         </div>
@@ -151,7 +151,7 @@ export default function Contact() {
               setForm({ ...form, message: e.target.value })
             }
             onBlur={handleBlur}
-            className="w-full p-3 border rounded-lg"
+            className="w-full p-3 border rounded-lg dark:bg-gray-700 dark:border-gray-600"
           />
           <p className="text-red-500 text-sm">{errors.message}</p>
         </div>

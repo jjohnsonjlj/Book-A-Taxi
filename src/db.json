@@ -30,6 +30,17 @@
       "price": "42.20",
       "userId": 1,
       "id": "QcLb-1wgvlo"
+    },
+    {
+      "name": "Joshua Johnson",
+      "origin": "1234 Orlando St, orlando, fl",
+      "destination": "456 Street Way",
+      "date": "2026-04-23",
+      "service": "premium",
+      "distance": "8.7",
+      "price": "39.80",
+      "userId": 1,
+      "id": "bdvyX5qJFKI"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

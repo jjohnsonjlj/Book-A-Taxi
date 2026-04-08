@@ -128,7 +128,7 @@ export default function Booking() {
           placeholder="Name"
           value={form.name}
           onChange={(e) => setForm({ ...form, name: e.target.value })}
-          className="w-full p-3 border rounded-lg"
+          className="w-full p-3 border rounded-lg dark:bg-gray-700 dark:border-gray-600"
         />
         <p className="text-red-500 text-sm">{errors.name}</p>
 
@@ -136,7 +136,7 @@ export default function Booking() {
           placeholder="Pickup Location"
           value={form.origin}
           onChange={(e) => setForm({ ...form, origin: e.target.value })}
-          className="w-full p-3 border rounded-lg"
+          className="w-full p-3 border rounded-lg dark:bg-gray-700 dark:border-gray-600"
         />
         <p className="text-red-500 text-sm">{errors.origin}</p>
 
@@ -144,7 +144,7 @@ export default function Booking() {
           placeholder="Dropoff Location"
           value={form.destination}
           onChange={(e) => setForm({ ...form, destination: e.target.value })}
-          className="w-full p-3 border rounded-lg"
+          className="w-full p-3 border rounded-lg dark:bg-gray-700 dark:border-gray-600"
         />
         <p className="text-red-500 text-sm">{errors.destination}</p>
 
@@ -152,7 +152,7 @@ export default function Booking() {
           type="date"
           value={form.date}
           onChange={(e) => setForm({ ...form, date: e.target.value })}
-          className="w-full p-3 border rounded-lg"
+          className="w-full p-3 border rounded-lg dark:bg-gray-700 dark:border-gray-600"
         />
         <p className="text-red-500 text-sm">{errors.date}</p>
 
